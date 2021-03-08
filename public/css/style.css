@@ -1,3 +1,12 @@
+@font-face{
+  font-family: '08SEOULNAMSAN';
+  src: url("../fonts/08SEOULNAMSANB.TTF") format("seoul-namsan-b"),
+  url("../fonts/08SEOULNAMSANEB.TTF") format("seoul-namsan-eb"),
+  url("../fonts/08SEOULNAMSANVERT.TTF") format("seoul-namsan-ert");
+  font-weight: normal;
+  font-style: normal;
+}
+
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
@@ -12,7 +21,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Quicksand", Arial, sans-serif;
+  font-family: "08SEOULNAMSAN", Arial, sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 1.8;
@@ -36,7 +45,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
-  font-family: "Playfair Display", Georgia, serif;
+  font-family: "08SEOULNAMSAN", Georgia, serif;
   font-weight: 400;
   margin: 0 0 30px 0; }
 
@@ -50,7 +59,7 @@ figure {
     margin: 20px auto 0px auto;
     color: #b3b3b3;
     font-style: italic;
-    font-family: "Quicksand", Arial, sans-serif; }
+    font-family: "08SEOULNAMSAN", Arial, sans-serif; }
     @media screen and (max-width: 480px) {
       figure figcaption {
         width: 100%; } }
@@ -96,7 +105,7 @@ figure {
   #colorlib-aside .author-img {
     width: 150px;
     height: 150px;
-    margin: 0 auto;
+    margin: 30px auto;
     margin-bottom: 30px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -146,7 +155,7 @@ figure {
           text-decoration: none;
           position: relative;
           padding: 10px 0;
-          font-family: "Quicksand", Arial, sans-serif;
+          font-family: "08SEOULNAMSAN", Arial, sans-serif;
           -webkit-transition: 0.3s;
           -o-transition: 0.3s;
           transition: 0.3s; }
@@ -296,7 +305,7 @@ figure {
           margin: 0;
           padding: 0;
           color: black;
-          font-family: "Playfair Display", Georgia, serif; }
+          font-family: "08SEOULNAMSAN", Georgia, serif; }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
           margin-bottom: 20px;
           font-size: 60px;
@@ -310,7 +319,7 @@ figure {
           line-height: 1.5;
           margin-bottom: 30px;
           font-weight: 300;
-          font-family: "Quicksand", Arial, sans-serif; }
+          font-family: "08SEOULNAMSAN", Arial, sans-serif; }
           #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 a {
             color: rgba(44, 152, 240, 0.8);
             border-bottom: 1px solid rgba(44, 152, 240, 0.7); }
@@ -462,7 +471,7 @@ body.offcanvas {
   font-size: 14px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  font-family: "Quicksand", Arial, sans-serif;
+  font-family: "08SEOULNAMSAN", Arial, sans-serif;
   background-color: #2c98f0;
   color: #fff;
   position: relative;
@@ -481,7 +490,7 @@ body.offcanvas {
   border: none; }
 
 .panel-heading a:after {
-  font-family: "icomoon";
+  font-family: "08SEOULNAMSAN";
   content: "\e115";
   position: absolute;
   right: 20px;
@@ -601,7 +610,7 @@ body.offcanvas {
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 {
   font-size: 20px;
-  font-family: "Quicksand", Arial, sans-serif;
+  font-family: "08SEOULNAMSAN", Arial, sans-serif;
   font-weight: 500; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 a {
@@ -631,7 +640,7 @@ body.offcanvas {
       font-size: 30px;
       color: #2c98f0; }
   .services h3 {
-    font-family: "Quicksand", Arial, sans-serif;
+    font-family: "08SEOULNAMSAN", Arial, sans-serif;
     font-size: 16px;
     font-weight: 500; }
   .services.color-2 {
@@ -732,7 +741,7 @@ body.offcanvas {
 
 .progress-wrap h3 {
   font-size: 16px;
-  font-family: "Quicksand", Arial, sans-serif;
+  font-family: "08SEOULNAMSAN", Arial, sans-serif;
   margin-bottom: 10px; }
 
 .progress {
@@ -893,7 +902,7 @@ body.offcanvas {
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-family: "Quicksand", Arial, sans-serif; }
+    font-family: "08SEOULNAMSAN", Arial, sans-serif; }
     .blog-entry .desc h3 a {
       color: #000;
       text-decoration: none; }
@@ -973,7 +982,7 @@ body.offcanvas {
           font-size: 16px;
           color: #333333; }
     .project .desc h3 {
-      font-family: "Quicksand", Arial, sans-serif;
+      font-family: "08SEOULNAMSAN", Arial, sans-serif;
       font-size: 16px;
       font-weight: 500;
       text-transform: uppercase;
@@ -1069,7 +1078,7 @@ body.offcanvas {
     font-size: 40px;
     display: block;
     color: white;
-    font-family: "Quicksand", Arial, sans-serif;
+    font-family: "08SEOULNAMSAN", Arial, sans-serif;
     width: 100%;
     font-weight: 700;
     margin-bottom: .3em; }
@@ -1162,7 +1171,7 @@ body.offcanvas {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Quicksand", Arial, sans-serif;
+  font-family: "08SEOULNAMSAN", Arial, sans-serif;
   font-size: 12px;
   font-weight: 400;
   text-transform: uppercase;
