@@ -12,9 +12,10 @@ export default class About extends Component {
                 <div className="col-md-12">
                     <div className="about-desc">
                     <span className="heading-meta">About</span>
-                    <h2 className="colorlib-heading">생각하는 개발자 윤진주입니다.</h2>
-                    <p>새로운 지식을 습득하기 좋아하고</p>
-                    <p>I have started reflecting my ideas and thougths through the medium of words recently so spelling and grammer mistaks are very often.You can write me back if you spot any and don't want to live anymore :P </p>
+                    <h2 className="colorlib-heading">생각하는 개발자 윤진주 입니다.</h2>
+                    <p>늘 새로운 것에 관심이 많고 배우길 좋아합니다. 긍정적이고 발전하는 삶을 위해 노력합니다.
+
+                    </p>
                     </div>
                 </div>
                 </div>
@@ -27,7 +28,7 @@ export default class About extends Component {
             <div className="row">
             <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
                 <span className="heading-meta">What I do?</span>
-                <h2 className="colorlib-heading">Here are some of my expertise</h2>
+                <h2 className="colorlib-heading">Skills</h2>
             </div>
             </div>
             <div className="row row-pt-md">
@@ -37,8 +38,8 @@ export default class About extends Component {
                     <i className="icon-bulb" />
                 </span>
                 <div className="desc">
-                    <h3>Web Development </h3>
-                    <p>I have experience building websites and chrome extentions using JavaScript,React,HTML,CSS</p>
+                    <h3>Front-end</h3>
+                    <p>JavaScript, HTML, CSS, jQuery 를 사용하여 웹 사이트를 만들 수 있습니다.</p>
                 </div>
                 </div>
             </div>
@@ -48,8 +49,8 @@ export default class About extends Component {
                     <i className="icon-phone3" />
                 </span>
                 <div className="desc">
-                    <h3>Data Structures & Algorithms</h3>
-                    <p>As coming from the CS background, I have good grasp over fundamental concepts of DSA</p>
+                    <h3>Back-end</h3>
+                    <p>Java, Oracle, Spring을 사용하여 서버를 개발할 수 있습니다.</p>
                 </div>
                 </div>
             </div>
@@ -59,46 +60,11 @@ export default class About extends Component {
                     <i className="icon-data" />
                 </span>
                 <div className="desc">
-                    <h3>Dev Ops</h3>
-                    <p>I am pursuing my internship with DevOps team at Juniper and working with tools like Jenkins, Docker, K8s</p>
+                    <h3>ETC</h3>
+                    <p>Github, Notion 을 사용할 수 있습니다.</p>
                 </div>
                 </div>
             </div>
-            {/*
-            <div className="col-md-4 text-center animate-box">
-                <div className="services color-2">
-                <span className="icon">
-                    <i className="icon-data" />
-                </span>
-                <div className="desc">
-                    <h3>Dev Ops</h3>
-                    <p>Jenkins , Kubernetes , Docker </p>
-                </div>
-                </div>
-            </div>
-            <div className="col-md-4 text-center animate-box">
-                <div className="services color-4">
-                <span className="icon">
-                    <i className="icon-layers2" />
-                </span>
-                <div className="desc">
-                    <h3>Graphic Design</h3>
-                    <p>My friend knows .. P</p>
-                </div>
-                </div>
-            </div>
-            <div className="col-md-4 text-center animate-box">
-                <div className="services color-6">
-                <span className="icon">
-                    <i className="icon-phone3" />
-                </span>
-                <div className="desc">
-                    <h3>Digital Marketing</h3>
-                    <p>I use Instagram eight hours a day :) </p>
-                </div>
-                </div>
-            </div>
-            */}
             </div>
         </div>
         </section>
